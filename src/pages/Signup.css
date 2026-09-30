@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* FULL PAGE */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8d8e4;
+  padding: 30px;
+}
+
+/* BIGGER CARD */
+.signup-card {
+  padding: 65px;
+  border-radius: 25px;
+
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+  border: none; /* REMOVE heavy border */
+}
+
+/* TITLE */
+.signup-card h1 {
+  margin: 0;
+  font-size: 38px;              /* 🔥 BIGGER TITLE */
+  color: #2e2d54;
+}
+
+/* FORM */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 14px 18px;
+  border-radius: 12px;
+
+  border: 1px solid #e5e7eb; /* light gray instead of dark */
+  background: #f9fafb;
+
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+  border-color: #6366f1;
+  background: #fff;
+  outline: none;
+}
+
+/* HOVER */
+.signup-card input:hover,
+.signup-card select:hover {
+  border-color: #1f1e3c;            /* dark blue hover */
+  background-color: #f4f4ff;
+}
+
+/* BIG SIGNUP BUTTON */
+.signup-btn {
+  background: #2e2d54;
+  color: white;
+
+  padding: 14px;
+  border-radius: 12px;
+
+  font-weight: 600;
+  border: none;
+
+  transition: all 0.2s ease;
+}
+
+.signup-btn:hover {
+  background: #363669;
+  transform: translateY(-1px);
+
+
+  /* Curved Select */
+/* FORCE CUSTOM SELECT STYLE */
+.signup-card select {
+  width: 100% !important;
+  padding: 18px 20px !important;
+  font-size: 16px !important;
+  border-radius: 40px !important;
+  border: 3px solid #2e2d54 !important;
+  background-color: #2e2d54 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  outline: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover */
+.signup-card select:hover {
+  background-color: #1f1e3c;
+}
+
+/* Focus */
+.signup-card select:focus {
+  box-shadow: 0 0 0 4px rgba(46, 45, 84, 0.25);
+}
+.signup-card select {
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 18px;
+}
+/* ===== CUSTOM DROPDOWN ===== */
+.custom-dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-selected {
+  padding: 18px 20px;
+  border-radius: 40px;
+  border: 3px solid #2e2d54;
+  background-color: #2e2d54;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.dropdown-selected:hover {
+  background-color: #1f1e3c;
+}
+
+.arrow {
+  font-size: 14px;
+}
+}
+label {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}

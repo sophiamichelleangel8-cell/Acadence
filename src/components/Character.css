@@ -1,0 +1,45 @@
+.character-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.character-image {
+  width: 260px;
+  animation: float 4s ease-in-out infinite;
+  transition: all 0.5s ease;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Mood Effects */
+.morning .character-image {
+  filter: brightness(1.1);
+}
+
+.relax .character-image,
+.dinner .character-image {
+  filter: sepia(0.2) saturate(1.1);
+}
+
+.night .character-image {
+  filter: brightness(0.7) hue-rotate(10deg);
+}
+
+.sleep .character-image {
+  filter: brightness(0.6) blur(1px);
+}
+
+/* Caption */
+.caption {
+  margin-top: 8px;
+  font-size: 13px;
+  opacity: 0.8;
+}

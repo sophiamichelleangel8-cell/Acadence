@@ -1,0 +1,32 @@
+.security-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.security-item p {
+  font-weight: 500;
+  margin: 0;
+}
+
+.security-item span {
+  font-size: 13px;
+  color: #64748b;
+}
+button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #102146;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #162d6b;
+}

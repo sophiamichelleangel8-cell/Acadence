@@ -1,0 +1,39 @@
+.avatar-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 15px 0 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+}
+
+.avatar.selected {
+  border: 3px solid #102146;
+  transform: scale(1.08);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}

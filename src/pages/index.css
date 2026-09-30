@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen setup */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Animated gradient background */
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    135deg,
+    #FEE3E2,
+    #FEF6D7,
+    #D2E9F8,
+    #DAF0E3,
+    #FFE3E5
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@import url('leaflet/dist/leaflet.css');
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh; /* full screen map, you can adjust later */
+}

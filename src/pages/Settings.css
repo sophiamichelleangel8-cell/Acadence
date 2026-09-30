@@ -1,0 +1,84 @@
+.settings-container {
+  padding: 30px;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+} /* ✅ THIS WAS MISSING */
+
+/* NOW your actual styles work */
+
+.settings-page {
+  padding: 30px;
+  background: #e3c1cb;
+  min-height: 100vh;
+}
+
+/* Tabs container */
+.settings-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  background: #ffffff;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+/* Tab buttons */
+.tabs-container button {
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.tabs-container button:hover {
+  background: #f2f2f2;
+}
+
+.tabs-container button.active {
+  background: #1f3a8a;
+  color: white;
+}
+
+/* Card */
+.settings-card {
+  max-width: 900px;
+  margin: auto;
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.settings-card label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.danger {
+  background: #ff4d4f;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

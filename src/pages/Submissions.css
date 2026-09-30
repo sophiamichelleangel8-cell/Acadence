@@ -1,0 +1,51 @@
+.submissions-page {
+  padding: 20px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.table-header {
+  font-weight: bold;
+}
+
+.table-row input,
+.table-row select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #1e2a4a;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.past-due {
+  background-color: #ffe5e5;
+}
+
+.past-due input,
+.past-due select {
+  border-color: red;
+  color: red;
+}
+.submissions-page {
+  padding: 20px;
+  background-color: #f8d8e4;
+  min-height: 100vh;
+}
