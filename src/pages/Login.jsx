@@ -8,6 +8,7 @@ import "./login.css";
 
 function Login() {
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const navigate = useNavigate();
 
   const handleGoogleLogin = async () => {
