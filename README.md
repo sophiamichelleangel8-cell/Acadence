@@ -3,18 +3,18 @@
 
 A college companion web application designed to bring everyday student activities and useful campus information together in one place.
 
-🔗 **Live Demo:** [Acadence](https://sophia-acadence.netlify.app/login)
+🌐 **Live Demo:** [https://sophia-acadence.netlify.app](https://sophia-acadence.netlify.app)
 
 ## Overview
 
-Acadence is a web application built to help students organize their college-related activities through a centralized platform. It combines personal organization tools, notifications, daily activity tracking and campus route information in one interface.
+Acadence is a web application designed to help students organize their college-related activities through a centralized platform. It combines personal productivity tools, notifications, daily activity tracking and campus route information in one place.
 
 ## Features
 
-- **Authentication:** User login and signup using Firebase Authentication.
+- **User Authentication:** Login and signup using Firebase Authentication.
 - **Daily Logs:** Record and manage daily activities.
 - **To-Do History:** Keep track of tasks and previously recorded activities.
-- **Notifications:** View relevant notifications within the application.
+- **Notifications:** View notifications within the application.
 - **Campus Route Map:** Explore campus locations and routes through an interactive map.
 - **Settings:** Access application preferences and account-related settings.
 
@@ -22,9 +22,9 @@ Acadence is a web application built to help students organize their college-rela
 
 | Category | Technologies |
 |---|---|
-| Frontend | React.js, JavaScript, HTML, CSS |
+| Frontend | React.js, JavaScript, HTML5, CSS3 |
 | Build Tool | Vite |
-| Backend & Authentication | Firebase |
+| Authentication | Firebase Authentication |
 | Database | Cloud Firestore |
 | Mapping | Leaflet, React Leaflet |
 | Routing | React Router |
@@ -75,6 +75,7 @@ Acadence/
 ├── functions/
 ├── firebase.json
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
 ```
