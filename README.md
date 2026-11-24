@@ -3,7 +3,7 @@
 
 A college companion web application designed to bring everyday student activities and useful campus information together in one place.
 
-🌐 **Live Demo:** [https://sophia-acadence.netlify.app](https://sophia-acadence.netlify.app)
+🌐 **Live Demo:** [Acadence][https://sophia-acadence.netlify.app](https://sophia-acadence.netlify.app)
 
 ## Overview
 
