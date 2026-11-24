@@ -1,16 +1,98 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Acadence – Your College Companion
 
-Currently, two official plugins are available:
+A college companion web application designed to bring everyday student activities and useful campus information together in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [Acadence](https://sophia-acadence.netlify.app/login)
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Acadence is a web application built to help students organize their college-related activities through a centralized platform. It combines personal organization tools, notifications, daily activity tracking and campus route information in one interface.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Authentication:** User login and signup using Firebase Authentication.
+- **Daily Logs:** Record and manage daily activities.
+- **To-Do History:** Keep track of tasks and previously recorded activities.
+- **Notifications:** View relevant notifications within the application.
+- **Campus Route Map:** Explore campus locations and routes through an interactive map.
+- **Settings:** Access application preferences and account-related settings.
+
+## Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | React.js, JavaScript, HTML, CSS |
+| Build Tool | Vite |
+| Backend & Authentication | Firebase |
+| Database | Cloud Firestore |
+| Mapping | Leaflet, React Leaflet |
+| Routing | React Router |
+| Icons | Lucide React |
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sophiamichelleangel8-cell/Acadence.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Acadence
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Project Structure
+
+```text
+Acadence/
+├── public/
+├── src/
+├── functions/
+├── firebase.json
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Future Improvements
+
+- Expand student productivity features.
+- Improve campus navigation and route information.
+- Introduce additional customization options.
+- Enhance the overall student experience.
+
+## Author
+
+**Sophia Michelle Angel S**
+
+- GitHub: [sophiamichelleangel8-cell](https://github.com/sophiamichelleangel8-cell)
+- LinkedIn: [Sophia Michelle Angel](https://www.linkedin.com/in/sophia-michelle-angel-s-083668405/)
+
+---
+
+*Built to make college life more organized and accessible.*
